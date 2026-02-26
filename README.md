@@ -105,7 +105,11 @@ py scripts/orchestrate.py --prompt "Investigate auth-service errors in the last 
 | `ELASTICSEARCH_API_KEY` | API key (Base64 encoded, from Stack Management → API Keys) |
 | `WEBHOOK_URL` | Slack or Discord webhook URL (optional) |
 
-## Dashboard Panels
+## Dashboard
+
+![Error Spike Timeline](docs/images/dashboard-timeline.png)
+![Errors by Service & Average Latency](docs/images/dashboard-services-latency.png)
+![Incidents & Actions Taken](docs/images/dashboard-incidents-actions.png)
 
 | Panel | Description |
 |---|---|
