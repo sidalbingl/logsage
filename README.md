@@ -111,6 +111,10 @@ py scripts/orchestrate.py --prompt "Investigate auth-service errors in the last 
 ![Errors by Service & Average Latency](docs/images/dashboard-services-latency.png)
 ![Incidents & Actions Taken](docs/images/dashboard-incidents-actions.png)
 
+## Slack Escalation
+
+![Slack Block Kit Notification](docs/images/slack-notification.png)
+
 | Panel | Description |
 |---|---|
 | Error Spike Timeline | ERROR log counts over time |
